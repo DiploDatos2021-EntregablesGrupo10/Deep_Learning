@@ -4,6 +4,6 @@ En este práctico trabajamos en el problema de clasificación de texto del MeLi 
 ### Grupo 10
 + Altamirano Marlen
 + Cattaneo Matias
++ Díaz Federico Raul
 + Luque Melina
-+ Lopez Federico Raul
 + Oliverio Sofia
