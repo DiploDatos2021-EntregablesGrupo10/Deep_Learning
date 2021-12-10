@@ -26,8 +26,9 @@ Corrimos nuestro modelo con hiperparametros por Default y luego, ciertos hiperpa
 
 ### Hiperparámetros
 
+
 | Experimento n° | Épocas | Learning Rate | Filters_Count | Freeze_Embeddings | Batch_Size | 
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 1  | 3 | 1e-3 | 100 | True | 128 |
 | 2  | 3 | 1e-3 | 150 | True | 128 |
 | 3  | 2 | 1e-3 | 100 | True | 128 |
@@ -40,7 +41,7 @@ Corrimos nuestro modelo con hiperparametros por Default y luego, ciertos hiperpa
 ### Métricas Obtenidas
 
 | Experimento n° | Test Balanced Accuracy | Test Loss | Train Loss | 
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- |
 | 1  | 0.452 | 2.47 | 2.54 |
 | 2  | 0.430 | 2.49 | 2.59 |
 | 3  | 0.417 | 2.77 | 2.71 | 
