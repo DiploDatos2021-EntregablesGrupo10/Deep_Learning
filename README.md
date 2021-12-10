@@ -61,7 +61,7 @@ Vemos que la Train Loss se estabiliza alrededor de las 6 épocas pero la Test Lo
 
 Concluimos que los parámetros elegidos en los experimentos realizados aun no son los óptimos pero que haber aumentado el n° de epocas de 3 a 10, haber aumentado el tamaño del batch y haber seleccionado embedding_freeze=False ha mejorado las métricas.
 
-Resta encontrar los valores óptimos de dichos parámetros y quizás modificar algún otro parámetro no incluído en este análisis. 
+Es posible que también modificar algún otro parámetro no incluído en este análisis mejore la calidad del modelo. 
 
 
 
