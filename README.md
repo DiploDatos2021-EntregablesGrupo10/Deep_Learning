@@ -29,7 +29,7 @@ Corrimos nuestro modelo con hiperparametros por Default y luego, ciertos hiperpa
 
 | Experimento n° | Épocas | Learning Rate | Filters_Count | Freeze_Embeddings | Batch_Size | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1  | 3 | 1e-3 | 100 | True | 128 |
+| 1 (Baseline)  | 3 | 1e-3 | 100 | True | 128 |
 | 2  | 3 | 1e-3 | **150** | True | 128 |
 | 3  | **2** | 1e-3 | 100 | True | 128 |
 | 4  | **5** | 1e-3 | 100 | True | 128 |
@@ -47,10 +47,13 @@ Corrimos nuestro modelo con hiperparametros por Default y luego, ciertos hiperpa
 | 3  | 0.417 | 2.77 | 2.71 | 
 | 4  | 0.492 | 2.16 | 2.35 |
 | 5  | 0.531 | 1.79 | 2.07 |
-| 6  | x | x | x | 
-| 7  | x | x | x |
-| 8  | x | x | x | 
+| 6  | x | x | x | segundo
+| 7  | x | x | x |primerp
+| 8  | x | x | x | tercero 
 
+
+De las métricas de las tablas podemos ver por un lado que aumentar el n° de épocas mejora el valor de Test Balanced Accuracy, así como disminuye la Test Loss. 
+Incrementar el parámetro Filters_Count no mejora los resultados, por lo que los experimentos siguientes al 2 continuan con el valor por default. Vemos que modificar freeze_embeddings y aumentar el tamaño del batch mejora notablemente las métricas. 
 
 
 
