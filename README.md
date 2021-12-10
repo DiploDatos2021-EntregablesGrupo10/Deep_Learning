@@ -36,7 +36,7 @@ Corrimos nuestro modelo con hiperparametros por Default y luego, ciertos hiperpa
 | 5  | **10** | 1e-3 | 100 | True | 128 |
 | 6  | 10 | 1e-3 | 100 | **False** | 128 |
 | 7  | 10 | 1e-3 | 100 | **False** | **256** |
-| 8  | 3 | **5e-3** | 100 | False | 256 |
+| 8  | 10 | **5e-3** | 100 | **False** | **256** |
 
 ### Métricas Obtenidas
 
@@ -53,9 +53,17 @@ Corrimos nuestro modelo con hiperparametros por Default y luego, ciertos hiperpa
 
 
 De las métricas de las tablas podemos ver por un lado que aumentar el n° de épocas mejora el valor de Test Balanced Accuracy, así como disminuye la Test Loss. 
-Incrementar el parámetro Filters_Count no mejora los resultados, por lo que los experimentos siguientes al 2 continuan con el valor por default. Vemos que modificar freeze_embeddings y aumentar el tamaño del batch mejora notablemente las métricas. Finalmente, aumentar la tasa de aprendizaje, no presenta mejorías. De los experimentos realizados, el n° 7 es el que mejor Balanced Accuracy muestra; sin embargo, el gap entre la Train Loss y Test Loss se incrementa notablemente (Figura 1).
+Incrementar el parámetro Filters_Count no mejora los resultados, por lo que los experimentos siguientes al 2 continuan con el valor por default. Vemos que modificar freeze_embeddings y aumentar el tamaño del batch mejora notablemente las métricas. Finalmente, aumentar la tasa de aprendizaje, no presenta mejorías. De los experimentos realizados, el n° 7 es el que mejor Balanced Accuracy muestra; sin embargo, el gap entre la Train Loss y Test Loss se incrementa notablemente. La siguiente figura evidencia esto mostrando como evolucionan las tasas de perdida según las épocas (eje x). 
 
 ![Image Text](https://github.com/DiploDatos2021-EntregablesGrupo10/Deep_Learning/blob/d739a944ed408c9c01bb20a87954cb87cde13de6/Experiments/exp7.png)
+
+Vemos que la Train Loss se estabiliza alrededor de las 6 épocas pero la Test Loss continúa decreciendo. 
+
+Concluimos que los parámetros elegidos en los experimentos realizados aun no son los óptimos pero que haber aumentado el n° de epocas de 3 a 10, haber aumentado el tamaño del batch y haber seleccionado embedding_freeze=False ha mejorado las métricas.
+
+Resta encontrar los valores óptimos de dichos parámetros y quizás modificar algún otro parámetro no incluído en este análisis. 
+
+
 
 
 
