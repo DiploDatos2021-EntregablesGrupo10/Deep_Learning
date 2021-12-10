@@ -35,7 +35,7 @@ Corrimos nuestro modelo con hiperparametros por Default y luego, ciertos hiperpa
 | 4  | **5** | 1e-3 | 100 | True | 128 |
 | 5  | **10** | 1e-3 | 100 | True | 128 |
 | 6  | 10 | 1e-3 | 100 | **False** | 128 |
-| 7  | 10 | 1e-3 | 100 | False | **256** |
+| 7  | 10 | 1e-3 | 100 | **False** | **256** |
 | 8  | 3 | **5e-3** | 100 | False | 256 |
 
 ### Métricas Obtenidas
@@ -47,15 +47,15 @@ Corrimos nuestro modelo con hiperparametros por Default y luego, ciertos hiperpa
 | 3  | 0.417 | 2.77 | 2.71 | 
 | 4  | 0.492 | 2.16 | 2.35 |
 | 5  | 0.531 | 1.79 | 2.07 |
-| 6  | x | x | x | segundo
-| 7  | x | x | x |primerp
-| 8  | x | x | x | tercero 
+| 6  | 0.699 | 0.44 | 1.30 | 
+| 7  | 0.703 | 0.50 | 1.23 |
+| 8  | 0.672 | 0.67 | 1.36 | 
 
 
 De las métricas de las tablas podemos ver por un lado que aumentar el n° de épocas mejora el valor de Test Balanced Accuracy, así como disminuye la Test Loss. 
-Incrementar el parámetro Filters_Count no mejora los resultados, por lo que los experimentos siguientes al 2 continuan con el valor por default. Vemos que modificar freeze_embeddings y aumentar el tamaño del batch mejora notablemente las métricas. 
+Incrementar el parámetro Filters_Count no mejora los resultados, por lo que los experimentos siguientes al 2 continuan con el valor por default. Vemos que modificar freeze_embeddings y aumentar el tamaño del batch mejora notablemente las métricas. Finalmente, aumentar la tasa de aprendizaje, no presenta mejorías. De los experimentos realizados, el n° 7 es el que mejor Balanced Accuracy muestra; sin embargo, el gap entre la Train Loss y Test Loss se incrementa notablemente (Figura 1).
 
-A modo de ejemplo agregamos en la carpeta expriments el resutlado de uno de los experimentos realizados con todo el dataset para 3 épocas.
+
 
 
 
