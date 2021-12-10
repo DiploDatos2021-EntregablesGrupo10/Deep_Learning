@@ -57,7 +57,7 @@ Incrementar el parámetro Filters_Count no mejora los resultados, por lo que los
 
 ![Aquí la descripción de la imagen por si no carga]
 
-(https://raw.githubusercontent.com/melinaLuque/DiploDatos2021-EntregablesGrupo10/Deep_Learning/Experiments/exp7.png)
+(https://github.com/DiploDatos2021-EntregablesGrupo10/Deep_Learning/blob/d739a944ed408c9c01bb20a87954cb87cde13de6/Experiments/exp7.png)
 
 
 
