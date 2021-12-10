@@ -30,13 +30,13 @@ Corrimos nuestro modelo con hiperparametros por Default y luego, ciertos hiperpa
 | Experimento n° | Épocas | Learning Rate | Filters_Count | Freeze_Embeddings | Batch_Size | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 1  | 3 | 1e-3 | 100 | True | 128 |
-| 2  | 3 | 1e-3 | 150 | True | 128 |
-| 3  | 2 | 1e-3 | 100 | True | 128 |
-| 4  | 5 | 1e-3 | 100 | True | 128 |
-| 5  | 10 | 1e-3 | 100 | True | 128 |
-| 6  | 10 | 1e-3 | 100 | False | 128 |
-| 7  | 10 | 1e-3 | 100 | False | 256 |
-| 8  | 3 | 5e-3 | 100 | True | 128 |
+| 2  | 3 | 1e-3 | **150** | True | 128 |
+| 3  | **2** | 1e-3 | 100 | True | 128 |
+| 4  | **5** | 1e-3 | 100 | True | 128 |
+| 5  | **10** | 1e-3 | 100 | True | 128 |
+| 6  | 10 | 1e-3 | 100 | **False** | 128 |
+| 7  | 10 | 1e-3 | 100 | False | **256** |
+| 8  | 3 | **5e-3** | 100 | False | 256 |
 
 ### Métricas Obtenidas
 
