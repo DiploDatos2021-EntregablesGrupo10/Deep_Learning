@@ -20,3 +20,11 @@ Se optó por usar una arquitectura que incluyera Redes Neuronales Convolucionale
 
 Dado el tamaño del dataset y las limitaciones de los recursos disponibles, si bien hicimos uso de Nabucodonosor2 se decidió acotar el dataset a 1.000.000 de líneas y basado en ese dataset reducido es que presentamos los siguientes resultados.
 
+## Resultados
+
+hola | manola 
+
+
+
+
+
