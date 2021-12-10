@@ -18,7 +18,7 @@ La clase PadSequences fue empleada para asegurar que todos los vectores de entra
 
 Se optó por usar una arquitectura que incluyera Redes Neuronales Convolucionales y diversos hiperparámetros fueron variados con el fin de optimizar los resultados. Empleamos MLFlow para gestionar el proceso de aprendizaje automático. La métrica elegida para determinar la eficacioa de nuestro modelo fue la "balanced accuracy". 
 
-Dado el tamaño del dataset y las limitaciones de los recursos disponibles, si bien hicimos uso de Nabucodonosor2 se decidió acotar el dataset a 1.000.000 de líneas y basado en ese dataset reducido es que presentamos los siguientes resultados.
+Dado el tamaño del dataset y las limitaciones de los recursos disponibles, si bien hicimos uso de Nabucodonosor2 para correr nuestro script se decidió acotar el dataset a 1.000.000 de líneas y basado en ese dataset reducido es que presentamos los siguientes resultados.
 
 ## Resultados
 
