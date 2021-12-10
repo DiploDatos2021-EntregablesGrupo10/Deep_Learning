@@ -55,6 +55,8 @@ Corrimos nuestro modelo con hiperparametros por Default y luego, ciertos hiperpa
 De las métricas de las tablas podemos ver por un lado que aumentar el n° de épocas mejora el valor de Test Balanced Accuracy, así como disminuye la Test Loss. 
 Incrementar el parámetro Filters_Count no mejora los resultados, por lo que los experimentos siguientes al 2 continuan con el valor por default. Vemos que modificar freeze_embeddings y aumentar el tamaño del batch mejora notablemente las métricas. 
 
+A modo de ejemplo agregamos en la carpeta expriments el resutlado de uno de los experimentos realizados con todo el dataset para 3 épocas.
+
 
 
 
