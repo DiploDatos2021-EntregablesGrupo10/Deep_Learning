@@ -55,9 +55,7 @@ Corrimos nuestro modelo con hiperparametros por Default y luego, ciertos hiperpa
 De las métricas de las tablas podemos ver por un lado que aumentar el n° de épocas mejora el valor de Test Balanced Accuracy, así como disminuye la Test Loss. 
 Incrementar el parámetro Filters_Count no mejora los resultados, por lo que los experimentos siguientes al 2 continuan con el valor por default. Vemos que modificar freeze_embeddings y aumentar el tamaño del batch mejora notablemente las métricas. Finalmente, aumentar la tasa de aprendizaje, no presenta mejorías. De los experimentos realizados, el n° 7 es el que mejor Balanced Accuracy muestra; sin embargo, el gap entre la Train Loss y Test Loss se incrementa notablemente (Figura 1).
 
-![Aquí la descripción de la imagen por si no carga]
-
-(https://github.com/DiploDatos2021-EntregablesGrupo10/Deep_Learning/blob/d739a944ed408c9c01bb20a87954cb87cde13de6/Experiments/exp7.png)
+![Image Text](https://github.com/DiploDatos2021-EntregablesGrupo10/Deep_Learning/blob/d739a944ed408c9c01bb20a87954cb87cde13de6/Experiments/exp7.png)
 
 
 
